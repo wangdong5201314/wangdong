@@ -285,14 +285,14 @@
     height: 40px;
     line-height: 40px;
     background-color: #fff;
-    border-bottom: 6px solid #ff6700;
+    border-bottom: 6px solid green;
 }
 /* 标题 */
 .ebooks .left-box .top .title{
     text-indent: 24px;
     font-weight: 300;
     font-size: 24px;
-    color: #ff6700;
+    color: green;
 }
 /*右侧标题导航 */
 .ebooks .left-box .top ul li{
@@ -303,7 +303,7 @@
 }
 /* 右侧激活类 */
 .ebooks .left-box .top ul li.active{
-    background-color: #ff6700;
+    background-color: green;
     color: #fff;
 }
 /* 下部分内容 */
@@ -318,39 +318,417 @@
     height: 450px;
     background-color: #f9f9f9;
 }
+.ebooks .left-box .content .ads .top-img{
+    width: 236px;
+    height: 290px;
+}
+.ebooks .left-box .content .ads .bottom-text{
+    height: 160px;
+    width: 236px;
+}
+.ebooks .left-box .content .ads .bottom-text ul{
+    width: 235px;
+    height: 160px;
+    margin-left: 1px;
+}
+.ebooks .left-box .content .ads .bottom-text ul li{
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
 /* 右侧列表 */
 .ebooks .left-box .content .ebooks-list{
     height: 450px;
     width: 670px;
     background-color: #ccc;
 }
-.ebooks .left-box .content .ebooks-list ul li{
+.ebooks .left-box .content .ebooks-list >ul> li{
     float: left;
     height: 223px;
     width: 165px;
     background-color: #fff;
     margin-left: 2px;
     margin-bottom: 2px;
+    text-align:center;
     
+}
+.ebooks .left-box .content .ebooks-list >ul >li> p{
+    text-align-last: left;
+    text-indent: 10px;
+}
+.ebooks .left-box .content .ebooks-list >ul >li> p:first-child{
+    font-size: 18px;
+}
+.ebooks .left-box .content .ebooks-list >ul> li> img{
+    margin: 3px auto;
+}
+.ebooks .left-box .content .ebooks-list >ul> li> p:not(:first-child){
+    color: red;
+}
+.ebooks .left-box .content .ebooks-list >ul >li >p:last-child{
+    font-size: 18px;
+}
+.ebooks .left-box .content .ebooks-list >ul> li> p s{
+    color: gray;
+    margin-left: 15px;
+}
+.ebooks .left-box .content .ebooks-list >ul >li:not(:first-child){
+    
+}
+/* 特别 li的轮播容器 */
+.ebooks .left-box .content .ebooks-list ul li:first-child{
+    width: 332px;
+    height: 223px;
+}
+.ebooks .left-box .content .ebooks-list ul li:first-child .pptbox{
+    height: 223px;
+    width: 332px;
 }
 .ebooks .right-box{
     width: 286px;
+    height: 456px;
+    margin-top: 40px;
+    border: 2px solid #ccc;
+    /* 变异怪盒子 */
+    box-sizing: border-box;
+}
+.ebooks .right-box .title{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #333;
+    
+}
+.ebooks .right-box ul li{
+    line-height: 42px;
+    font-size: 16px;
+    text-indent: 5px;
+}
+.ebooks .right-box ul li .desc{
+    font-size: 14px;
+    line-height: 20px;
+    height: 150px;
+    color: #333;
+    /* 默认第一个详情隐藏 */
+    display: none;
+}
+.ebooks .right-box ul li p b{
+    font-family: "League-Gothic", Courier;
+    color: #fff;
+    text-shadow: 0px  0px 10px #333, 0px 0px 10px blue;
+}
+.ebooks .right-box ul li:first-child .ebooks-title{
+    /* 默认第一个标题显示，其他隐藏 */
+    display: none;
+}
+.ebooks .right-box ul li:first-child .desc{
+    /* 默认第一个p显示 */
+    display: block;
+}
+.ebooks .right-box ul li img{
+    margin-right: 9px;
+}
+/*================= 服装 ========================= */
+.clothes{
+    margin-top: 30px;
+    height:496px;
+}
+/* 左侧盒子 */
+.clothes .left-box{
+    width: 906px;
     height: 496px;
-    background-color: deeppink;
+}
+/* 头部 */
+.clothes .left-box .top{
+    width: 906px;
+    height: 40px;
+    line-height: 41px;
+    background-color: #fff;
+    border-bottom: 6px solid pink;
+}
+/* 标题 */
+.clothes .left-box .top .title{
+    text-indent: 24px;
+    font-weight: 300;
+    font-size: 24px;
+    color: pink;
+}
+/*右侧标题导航 */
+.clothes .left-box .top ul li{
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+}
+/* 右侧激活类 */
+.clothes .left-box .top ul li.active{
+    background-color:pink;
+    color: #fff;
+}
+/* 下部分内容 */
+.clothes .left-box .content{
+    height: 450px;
+    width: 906px;
+    background-color: #ccc;
+}
+/* 左侧广告 */
+.clothes .left-box .content .ads{
+    width: 236px;
+    height: 450px;
+    background-color: #f9f9f9;
+}
+.clothes .left-box .content .ads .top-img{
+    width: 236px;
+    height: 330px;
+}
+.clothes .left-box .content .ads .bottom-text{
+    height: 120px;
+    width: 236px;
+}
+.clothes .left-box .content .ads .bottom-text ul{
+    width: 235px;
+    height: 120px;
+    margin-left: 1px;
+}
+.clothes .left-box .content .ads .bottom-text ul li{
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
 }
 
-/*服装 */
-.clothes{
-    height: 500px;
-    background-color: green;
+/* 右侧列表 */
+.clothes .left-box .content .clothes-list{
+    height: 450px;
+    width: 670px;
+    background-color: #ccc;
 }
-/* 户外运动 */
+.clothes .left-box .content .clothes-list >ul> li{
+    float: left;
+    height: 223px;
+    width: 165px;
+    background-color: #fff;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    text-align:center;
+    
+}
+.clothes .left-box .content .clothes-list >ul >li> p{
+    text-align-last: left;
+    text-indent: 10px;
+}
+.clothes .left-box .content .clothes-list >ul >li> p:first-child{
+    font-size: 18px;
+}
+.clothes .left-box .content .clothes-list >ul> li> img{
+    margin: 3px auto;
+}
+.clothes .left-box .content .clothes-list >ul> li> p:not(:first-child){
+    color: red;
+}
+.clothes .left-box .content .clothes-list >ul >li >p:last-child{
+    font-size: 18px;
+}
+.clothes .left-box .content .clothes-list >ul> li> p s{
+    color: gray;
+    margin-left: 15px;
+}
+.clothes .left-box .content .clothes-list >ul >li:not(:first-child){
+    
+}
+/* 特别 li的轮播容器 */
+.clothes .left-box .content .clothes-list ul li:first-child{
+    width: 332px;
+    height: 223px;
+}
+.clothes .left-box .content .clothes-list ul li:nth-child(4){
+    width: 332px;
+    height: 223px;
+}
+.clothes .left-box .content .clothes-list ul li:first-child .pptbox{
+    height: 223px;
+    width: 332px;
+}
+.clothes .right-box{
+    width: 286px;
+    height: 456px;
+    margin-top: 40px;
+    border: 2px solid #ccc;
+    /* 变异怪盒子 */
+    box-sizing: border-box;
+}
+.clothes .right-box .title{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #333;
+}
+.clothes .right-box .title .pptbox{
+    height: 426px;
+    width: 286px;
+}
+.clothes .logo{
+    height: 100px;
+    width: 1200px;
+}
+.clothes .logo ul li{
+    /* width: 1200px; */
+    height: 60px;
+    float: left;
+}
+/*====================== 户外运动 ==========================*/
 .sport{
     height: 500px;
-    background-color: #333;
+    margin-top: 120px;
+}
+/* 左侧盒子 */
+.sport .left-box{
+    width: 906px;
+    height: 496px;
+}
+/* 头部 */
+.sport .left-box .top{
+    width: 906px;
+    height: 40px;
+    line-height: 41px;
+    background-color: #fff;
+    border-bottom: 6px solid blue;
+}
+/* 标题 */
+.sport .left-box .top .title{
+    text-indent: 24px;
+    font-weight: 300;
+    font-size: 24px;
+    color: blue;
+}
+/*右侧标题导航 */
+.sport .left-box .top ul li{
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+}
+/* 右侧激活类 */
+.sport .left-box .top ul li.active{
+    background-color:blue;
+    color: #fff;
+}
+/* 下部分内容 */
+.sport .left-box .content{
+    height: 450px;
+    width: 906px;
+    background-color: #ccc;
+}
+/* 左侧广告 */
+.sport .left-box .content .ads{
+    width: 236px;
+    height: 450px;
+    background-color: #f9f9f9;
+}
+.sport .left-box .content .ads .top-img{
+    width: 236px;
+    height: 330px;
+}
+.sport .left-box .content .ads .bottom-text{
+    height: 120px;
+    width: 236px;
+}
+.sport .left-box .content .ads .bottom-text ul{
+    width: 235px;
+    height: 120px;
+    margin-left: 1px;
+}
+.sport .left-box .content .ads .bottom-text ul li{
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+/* 右侧列表 */
+.sport .left-box .content .sport-list{
+    height: 450px;
+    width: 670px;
+    background-color: #ccc;
+}
+.sport .left-box .content .sport-list >ul> li{
+    float: left;
+    height: 223px;
+    width: 165px;
+    background-color: #fff;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    text-align:center;
+    
+}
+.sport .left-box .content .sport-list >ul >li> p{
+    text-align-last: left;
+    text-indent: 10px;
+}
+.sport .left-box .content .sport-list >ul >li> p:first-child{
+    font-size: 18px;
+}
+.sport .left-box .content .sport-list >ul> li> img{
+    margin: 3px auto;
+}
+.sport .left-box .content .sport-list >ul> li> p:not(:first-child){
+    color: red;
+}
+.sport .left-box .content .sport-list >ul >li >p:last-child{
+    font-size: 18px;
+}
+.sport .left-box .content .sport-list >ul> li> p s{
+    color: gray;
+    margin-left: 15px;
+}
+.sport .left-box .content .sport-list >ul >li:not(:first-child){
+    
+}
+/* 特别 li的轮播容器 */
+.sport .left-box .content .sport-list ul li:first-child{
+    width: 332px;
+    height: 223px;
+}
+.sport .left-box .content .sport-list ul li:nth-child(4){
+    width: 332px;
+    height: 223px;
+}
+.sport .left-box .content .sport-list ul li:first-child .pptbox{
+    height: 450px;
+    width: 332px;
+}
+.sport .right-box{
+    width: 286px;
+    height: 456px;
+    margin-top: 40px;
+    border: 2px solid #ccc;
+    /* 变异怪盒子 */
+    box-sizing: border-box;
+}
+.sport .right-box .title{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #333;
+}
+.sport .right-box .title .pptbox{
+    height: 426px;
+    width: 286px;
 }
 /* 童装 */
 .childern-clothes{
+    margin-top: 120px;
     height: 500px;
     background-color: #ccc;
 }

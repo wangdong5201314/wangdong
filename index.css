@@ -206,7 +206,6 @@
 /* ================ 今日推荐 =============*/
 .recommend{
     height: 544px;
-
 }
 /* 标题 */
 .recommend .title{
@@ -726,24 +725,616 @@
     height: 426px;
     width: 286px;
 }
-/* 童装 */
+.sport .logo{
+    height: 100px;
+    width: 1200px;
+}
+.sport .logo ul li{
+    /* width: 1200px; */
+    height: 60px;
+    float: left;
+}
+/*======================== 童装 ==========================*/
 .childern-clothes{
     margin-top: 120px;
     height: 500px;
+}
+.childern-clothes .left-box{
+    width: 906px;
+    height: 496px;
+}
+/* 头部 */
+.childern-clothes .left-box .top{
+    width: 906px;
+    height: 40px;
+    line-height: 41px;
+    background-color: #fff;
+    border-bottom: 6px solid yellow;
+}
+/* 标题 */
+.childern-clothes .left-box .top .title{
+    text-indent: 24px;
+    font-weight: 300;
+    font-size: 24px;
+    color: yellow;
+}
+/*右侧标题导航 */
+.childern-clothes .left-box .top ul li{
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+}
+/* 右侧激活类 */
+.childern-clothes .left-box .top ul li.active{
+    background-color:yellow;
+    color: #fff;
+}
+/* 下部分内容 */
+.childern-clothes .left-box .content{
+    height: 450px;
+    width: 906px;
     background-color: #ccc;
 }
-/* 家具日用 */
+/* 左侧广告 */
+.childern-clothes .left-box .content .ads{
+    width: 236px;
+    height: 450px;
+    background-color: #f9f9f9;
+}
+.childern-clothes .left-box .content .ads .top-img{
+    width: 236px;
+    height: 330px;
+}
+..childern-clothes .left-box .content .ads .bottom-text{
+    height: 120px;
+    width: 236px;
+}
+.childern-clothes .left-box .content .ads .bottom-text ul{
+    width: 235px;
+    height: 120px;
+    margin-left: 1px;
+}
+.childern-clothes .left-box .content .ads .bottom-text ul li{
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+/* 右侧列表 */
+.childern-clothes .left-box .content .childern-list{
+    height: 450px;
+    width: 670px;
+    background-color: #ccc;
+}
+.childern-clothes .left-box .content .childern-list >ul> li{
+    float: left;
+    height: 223px;
+    width: 165px;
+    background-color: #fff;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    text-align:center;
+    
+}
+.childern-clothes .left-box .content .childern-list >ul >li> p{
+    text-align-last: left;
+    text-indent: 10px;
+}
+.childern-clothes .left-box .content .childern-list >ul >li> p:first-child{
+    font-size: 18px;
+}
+.childern-clothes .left-box .content .childern-list >ul> li> img{
+    margin: 3px auto;
+}
+.childern-clothes .left-box .content .childern-list >ul> li> p:not(:first-child){
+    color: red;
+}.childern-clothes
+.childern-clothes .left-box .content .childern-list >ul >li >p:last-child{
+    font-size: 18px;
+}
+.childern-clothes .left-box .content .childern-list >ul> li> p s{
+    color: gray;
+    margin-left: 15px;
+}
+.childern-clothes .left-box .content .childern-list >ul >li:not(:first-child){
+    
+}
+/* 特别 li的轮播容器 */
+.childern-clothes .left-box .content .childern-list ul li:first-child{
+    width: 332px;
+    height: 223px;
+}
+.childern-clothes .left-box .content .childern-list ul li:nth-child(4){
+    width: 332px;
+    height: 223px;
+}
+.childern-clothes .left-box .content .childern-list ul li:first-child .pptbox{
+    height: 450px;
+    width: 332px;
+}
+.childern-clothes .right-box{
+    width: 286px;
+    height: 456px;
+    margin-top: 40px;
+    border: 2px solid #ccc;
+    /* 变异怪盒子 */
+    box-sizing: border-box;
+}
+.childern-clothes .right-box .title{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #333;
+}
+.childern-clothes .right-box .title .pptbox{
+    height: 426px;
+    width: 286px;
+}
+.childern-clothes .logo{
+    height: 100px;
+    width: 1200px;
+}
+.childern-clothes .logo ul li{
+    /* width: 1200px; */
+    height: 60px;
+    float: left;
+}
+/*================================== 家具日用 ==================================*/
 .daily{
+    margin-top: 120px;
     height: 500px;
-    background-color: #333;
 }
-/* 推广商品 */
-.promotion{
-    height: 500px;
+.daily .left-box{
+    width: 906px;
+    height: 496px;
+}
+/* 头部 */
+.daily .left-box .top{
+    width: 906px;
+    height: 40px;
+    line-height: 41px;
+    background-color: #fff;
+    border-bottom: 6px solid orange;
+}
+/* 标题 */
+.daily .left-box .top .title{
+    text-indent: 24px;
+    font-weight: 300;
+    font-size: 24px;
+    color: orange;
+}
+/*右侧标题导航 */
+.daily .left-box .top ul li{
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+}
+/* 右侧激活类 */
+.daily .left-box .top ul li.active{
+    background-color:orange;
+    color: #fff;
+}
+/* 下部分内容 */
+.daily .left-box .content{
+    height: 450px;
+    width: 906px;
     background-color: #ccc;
 }
-/* 尾部 */
+/* 左侧广告 */
+.daily.daily .left-box .content .ads{
+    width: 236px;
+    height: 450px;
+    background-color: #f9f9f9;
+}
+.daily.daily .left-box .content .ads .top-img{
+    width: 236px;
+    height: 330px;
+}
+.daily.daily .left-box .content .ads .bottom-text{
+    height: 120px;
+    width: 236px;
+}
+.daily.daily .left-box .content .ads .bottom-text ul{
+    width: 235px;
+    height: 120px;
+    margin-left: 1px;
+}
+.daily.daily .left-box .content .ads .bottom-text ul li{
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+
+/* 右侧列表 */
+.daily .left-box .content .daily-list{
+    height: 450px;
+    width: 670px;
+    background-color: #ccc;
+}
+.daily .left-box .content .daily-list >ul> li{
+    float: left;
+    height: 223px;
+    width: 165px;
+    background-color: #fff;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    text-align:center;
+    
+}
+.daily .left-box .content .daily-list >ul >li> p{
+    text-align-last: left;
+    text-indent: 10px;
+}
+.daily .left-box .content .daily-list >ul >li> p:first-child{
+    font-size: 18px;
+}
+.daily .left-box .content .daily-list >ul> li> img{
+    margin: 3px auto;
+}
+.daily .left-box .content .daily-list >ul> li> p:not(:first-child){
+    color: red;
+}
+.daily .left-box .content .daily-list >ul >li >p:last-child{
+    font-size: 18px;
+}
+.daily .left-box .content .daily-list >ul> li> p s{
+    color: gray;
+    margin-left: 15px;
+}
+.daily .left-box .content .daily-list >ul >li:not(:first-child){
+    
+}
+/* 特别 li的轮播容器 */
+.daily .left-box .content .daily-list ul li:first-child{
+    width: 332px;
+    height: 223px;
+}
+.daily .left-box .content .daily-list ul li:nth-child(4){
+    width: 332px;
+    height: 223px;
+}
+.daily .left-box .content .daily-list ul li:first-child .pptbox{
+    height: 450px;
+    width: 332px;
+}
+.daily .right-box{
+    width: 286px;
+    height: 456px;
+    margin-top: 40px;
+    border: 2px solid #ccc;
+    /* 变异怪盒子 */
+    box-sizing: border-box;
+}
+.daily .right-box .title{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #333;
+}
+.daily .right-box .title .pptbox{
+    height: 426px;
+    width: 286px;
+}
+.daily .logo{
+    height: 100px;
+    width: 1200px;
+}
+.daily .logo ul li{
+    /* width: 1200px; */
+    height: 60px;
+    float: left;
+}
+/*========================= 推广商品 ===============================*/
+.promotion{
+    margin-top: 120px;
+    height: 544px;
+}
+.promotion .top {
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    border-bottom: 6px solid #ff6700;
+}
+
+.promotion .top .title {
+    text-indent: 24px;
+    font-size: 24px;
+    font-weight: 300px;
+    color: #ff6700;
+}
+
+
+/*右侧激活类*/
+
+.promotion .top>ul>li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    background-color: #ccc;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.promotion .top ul li.active {
+    background-color: #ff6700;
+}
+
+
+/* 内容 */
+
+
+/* 外部盒子 */
+
+.promotion .content {
+    height: 640px;
+    width: 1200px;
+}
+
+.promotion .content .out-box {
+    width: 1170px;
+    height: 600px;
+    overflow: hidden;
+}
+
+
+/* 里面盒子 */
+
+.promotion .content .out-box .inner-box {
+    /* 用左右滑动时的宽度和高度 */
+    width: 2340px;
+    height: 600px;
+    /* height: 1200px; 上下滑动时的高度*/
+    /* width: 1170px; 上下滑动时的宽度 */
+    /* 定位 */
+    position: relative;
+    /* 用左右滑动时的定位点 */
+    left: 0;
+    /* top: 0; 上下滑动的定位点 */
+}
+
+.promotion .content ul {
+    width: 1170px;
+    height: 600px;
+    margin: 20px auto;
+}
+
+.promotion .content ul li {
+    width: 214px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.promotion .content ul li .asd {
+    font-size: 15px;
+    width: 161px;
+    margin-left: 25px;
+    text-align: left;
+    font-family: Consolas, serif;
+}
+
+.promotion .content ul li .prince {
+    font-weight: 600;
+    font-size: 25px;
+    color: red;
+    text-align: left;
+    margin-left: 17px;
+}
+
+.promotion .content ul li p:last-child {
+    margin-left: -60px;
+}
+
+.promotion .content ul li p:last-child>img {
+    height: 20px;
+    margin-right: 10px;
+}
+/*============================= 尾部 =======================*/
 .footer{
     height: 500px;
-    background-color: #333;
+    margin-top: 120px;
+    width: 100%;
+}
+.footer .top {
+    width: 100%;
+    border-top: 6px solid #ff6700;
+    background-color: #ccc;
+}
+
+.footer .top .content {
+    height: 95px;
+    margin-top: 15px;
+}
+
+.footer .top .content>ul>li {
+    width: 120px;
+    height: 50px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 15px;
+    /* background-color: green; */
+}
+
+.footer .top .content>ul>li:first-child {
+    margin-left: 330px;
+}
+
+.footer .top .content>ul>li>img {
+    width: 120px;
+    height: 45px;
+}
+
+.footer .content .vade-mecum,.pay,.serve,.exchange,.seller-serve,.logo01 {
+    width: 120px;
+    height: 150px;
+    /* background-color: green; */
+    float: left;
+    position: relative;
+    top: 40px;
+    left: 330px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(146, 146, 146);
+}
+
+.footer .content .logo {
+    position: relative;
+    top: 60px;
+    left: 360px;
+}
+
+.footer .content .vade-mecum,.pay,.serve,.exchange,.seller-serve,.logo01 ul li {
+    line-height: 30px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer .content>.advertising {
+    width: 800px;
+    height: 30px;
+    /* margin-left: 100px; */
+    position: relative;
+    top: 240px;
+    /* background-color: blue; */
+    left: 300px;
+}
+
+.footer .content .advertising>p {
+    font-size: 13px;
+    position: absolute;
+    margin-left: 93px;
+}
+
+.footer .content .advertising>p:last-child {
+    font-size: 10px;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+.footer .content ul li:first-child {
+    font-size: 20px;
+    color: black;
+}
+
+
+/* =====返回顶部===== */
+
+.backToTop {
+    width: 30px;
+    height: 50px;
+    background-color: red;
+    /* 定位 */
+    position: fixed;
+    bottom: 100px;
+    left: 610px;
+    margin-left: 50%;
+    /* 默认隐藏 */
+    display: none;
+}
+
+.backToTop img {
+    width: 100%;
+    height: 100%;
+}
+/* ====== 二维码 ======= */
+.qr-code{
+    width: 40px;
+    height: 180px;
+    position: fixed;
+    top:185px;
+    right: 0px;
+}
+.qr-code p{
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+}
+.qr-code p img{
+    width: 100%;
+    height: 100%;
+}
+.qr-code p:nth-child(2){
+    height: 100px;
+    background-color: purple;
+}
+.qr-code div{
+    top: 40px;
+    position:absolute;
+    left: 0px;
+    z-index: -2;
+}
+/*========== 顶部搜索框交互==============*/
+.top-search-box{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(255, 123, 0, .8);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* 默认隐藏 */
+    display: none;
+}
+.top-search-box .search-box{
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ff6700;
+    margin: 10px auto;
+
+    background-image: url(../images/bgicon.png);
+    background-repeat: no-repeat;
+    background-position: 358px -2px;
+}
+.top-search-box .search-box input{
+    height: 26px;
+    width: 360px;
+    border: 2px solid #ff6700;
+    outline: none;
+    text-indent: 10px;
+}
+
+/*====== 楼层交互 =====*/
+.floor{
+    width: 40px;
+    height: 200px;
+    background-color:#f2f2f2;
+    position: fixed;
+    margin-left: 50%;
+    left:-640px;
+    top: 200px;
+}
+.floor li{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    /* 设置过渡效果 */
+    transition: all 0.3s;
+}
+.floor li:hover{
+    width: 80px;
+    color:#fff;
+    background-color: #93d56f;
+}
+.floor li img{
+    width: 40px;
+    height: 40px;
 }
